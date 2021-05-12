@@ -1,0 +1,19 @@
+.scroll-container {
+  position: relative;
+  height: calc(100vh - 64px);
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+
+}
+
+section {
+  height: calc(100vh - 64px);
+  scroll-snap-align: start;
+}
+
+section {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
