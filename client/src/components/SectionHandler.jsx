@@ -16,22 +16,19 @@ function SectionHandler() {
       <h2>Websites are like business cards on the web, make sure it's a good one</h2>
     </section>
     <section>
-      <VisibilitySensor>
-        {
-          ({isVisible}) =>
-          <Grow
-              in={visibleSectionTwo
-                ? true
-                : isVisible} onEnter={() => {
-                visibleSectionTwo = true;
-              }}
-                style={{
-                transformOrigin: '0 0 0'
-              }} {...(isVisible ? { timeout: 700 } : {})}>
-              <SectionTwo />
-            </Grow>
-        }
-      </VisibilitySensor>
+    <VisibilitySensor>
+      {
+        ({isVisible}) => <Grow in={visibleSectionTwo
+              ? true
+              : isVisible} onEnter={() => {
+              visibleSectionTwo = true;
+            }} style={{
+              transformOrigin: '0 0 0'
+            }} {...(isVisible ? { timeout: 700 } : {})}>
+            <h2>Section 2</h2>
+          </Grow>
+      }
+    </VisibilitySensor>
     </section>
     <section>
       <VisibilitySensor>
