@@ -45,7 +45,9 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             Manuel Nenninger
           </Typography>
-          <Button color="inherit" className={classes.typography} >Login</Button >
+          <Button color="inherit" className={classes.typography} >Work</Button >
+          <Button color="inherit" className={classes.typography} >About</Button >
+          <Button color="inherit" className={classes.typography} >Call to Action</Button >
         </Toolbar>
       </AppBar>
 

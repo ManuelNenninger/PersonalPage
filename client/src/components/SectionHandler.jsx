@@ -5,7 +5,8 @@ import React, {
 import VisibilitySensor from 'react-visibility-sensor';
 import Grow from '@material-ui/core/Grow';
 import "./SectionHandler.css";
-import SectionTwo from "./SectionTwo";
+import SectionOne from "./Sections/SectionOne/SectionOne";
+import SectionTwo from "./Sections/SectionTwo/SectionTwo";
 
 function SectionHandler() {
   let [visibleSectionTwo, visibleSectionThree, visibleSectionFour] = [false];
@@ -13,25 +14,22 @@ function SectionHandler() {
   return (
     <div className="scroll-container">
     <section>
-      <h2>Websites are like business cards on the web, make sure it's a good one</h2>
+      <SectionOne />
     </section>
     <section>
-      <VisibilitySensor>
-        {
-          ({isVisible}) =>
-          <Grow
-              in={visibleSectionTwo
-                ? true
-                : isVisible} onEnter={() => {
-                visibleSectionTwo = true;
-              }}
-                style={{
-                transformOrigin: '0 0 0'
-              }} {...(isVisible ? { timeout: 700 } : {})}>
-              <SectionTwo />
-            </Grow>
-        }
-      </VisibilitySensor>
+    <VisibilitySensor>
+      {
+        ({isVisible}) => <Grow in={visibleSectionTwo
+              ? true
+              : isVisible} onEnter={() => {
+              visibleSectionTwo = true;
+            }} style={{
+              transformOrigin: '0 0 0'
+            }} {...(isVisible ? { timeout: 700 } : {})}>
+            <div><SectionTwo /></div>
+          </Grow>
+      }
+    </VisibilitySensor>
     </section>
     <section>
       <VisibilitySensor>
@@ -43,7 +41,9 @@ function SectionHandler() {
               }} style={{
                 transformOrigin: '0 0 0'
               }} {...(isVisible ? { timeout: 700 } : {})}>
-              <h2>Section 3</h2>
+              <div>
+                <SectionTwo />
+              </div>
             </Grow>
         }
       </VisibilitySensor>

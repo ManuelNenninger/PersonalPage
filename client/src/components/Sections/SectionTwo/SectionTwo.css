@@ -1,0 +1,77 @@
+.container-fluid {
+  width: 100rem;
+  height: 53rem;
+}
+
+.container-fluid .row {
+  height: 50%
+}
+
+.cardsection {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  height: 25rem;
+  border: 3px solid #3E5659;
+  width: 49rem;
+
+  /* background-color: #FFE0A3; */
+}
+
+.cardsection img {
+  height: 19rem;
+  z-index: -1;
+}
+
+.row .col-sm-6 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.cardsection h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #3E5659;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.625rem;
+}
+
+
+.cardsection h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #3E5659;
+  letter-spacing: 0.025em;
+}
+
+
+/* Card specific CSS */
+
+.cardOneActivOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: #FFE0A3;
+  text-align: left;
+  z-index: -1;
+}
+
+.cardOneActivContent {
+  width: 90%;
+}
+
+.cardsection .cardOneActivTitel h4 {
+  margin: 2.5rem 0 2.1rem 3rem;
+  font-weight: 600;
+}
+
+.cardsection .cardOneActivContent h3 {
+  margin-left: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0.04rem;
+  font-size: 33px;
+}
