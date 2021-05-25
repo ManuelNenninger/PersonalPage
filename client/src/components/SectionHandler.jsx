@@ -7,6 +7,7 @@ import Grow from '@material-ui/core/Grow';
 import "./SectionHandler.css";
 import SectionOne from "./Sections/SectionOne/SectionOne";
 import SectionTwo from "./Sections/SectionTwo/SectionTwo";
+import SectionThree from "./Sections/SectionThree/SectionThree";
 
 function SectionHandler() {
   let [visibleSectionTwo, visibleSectionThree, visibleSectionFour] = [false];
@@ -42,7 +43,7 @@ function SectionHandler() {
                 transformOrigin: '0 0 0'
               }} {...(isVisible ? { timeout: 700 } : {})}>
               <div>
-                <SectionTwo />
+                <SectionThree />
               </div>
             </Grow>
         }

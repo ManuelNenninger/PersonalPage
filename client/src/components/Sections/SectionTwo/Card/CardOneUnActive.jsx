@@ -2,7 +2,7 @@ import React from 'react';
 
 function CardOneUnActive(props) {
   return (
-    <div>
+    <div className="textForPretty">
       <div className="cardOneTitel">
         <h4>{props.CardOneUnActiveTitel}</h4>
       </div>

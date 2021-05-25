@@ -7,14 +7,31 @@
 }
 
 section {
-  height: calc(100vh - 64px);
+  min-height: calc(100vh - 64px);
   scroll-snap-align: start;
-  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Das es immer zentriert ist */
+  margin-right: auto;
+  margin-left: auto;
+  /* Begrenzung auf max. Bildschirmgröße */
+  max-width: 1600px;
+
 }
 
 section:nth-child(1){
   position: relative;
+  justify-content: flex-start;
 }
+
+/* flex: 1 damit das Div den gesamten Flex-Container füllt. Hier wird aus der Section 2 das erste Div ausgewählt */
+section:nth-child(2) > div:first-of-type {
+  flex: 1
+}
+
+@media screen and (max-width: 768px){
+    section {
+      scroll-snap-align: none;
+    }
+  }
