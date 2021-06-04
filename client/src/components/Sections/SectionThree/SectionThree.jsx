@@ -1,9 +1,19 @@
 import "./SectionThree.css";
+import SectionThreeAgreementPlan from "./SectionThreeAgreementPlan";
+import SectionThreeLastCalltoAction from "./SectionThreeLastCalltoAction";
 
 
-function SectionThree(props){
+function SectionThree(props) {
   return (
-    <h1>Hello World</h1>
+    <>
+    <hr className="HrSThree"/>
+    <div className="sectionThreeContainer">
+      <SectionThreeAgreementPlan />
+      <hr className="HrSThree"/>
+      <SectionThreeLastCalltoAction />
+
+    </div>
+  </>
   );
 }
 

@@ -24,9 +24,17 @@ section:nth-child(1){
   position: relative;
   justify-content: flex-start;
 }
+section:nth-child(3){
+  align-items: normal;
+}
+
+
 
 /* flex: 1 damit das Div den gesamten Flex-Container füllt. Hier wird aus der Section 2 das erste Div ausgewählt */
 section:nth-child(2) > div:first-of-type {
+  flex: 1
+}
+section:nth-child(3) > div:first-of-type {
   flex: 1
 }
 
