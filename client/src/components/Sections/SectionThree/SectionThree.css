@@ -1,0 +1,114 @@
+/*Agreement Plan -- Start*/
+.sectionThreeContainer {
+  height: 100%;
+  width: 100%;
+  flex-direction: column !important;
+}
+
+.SThree-AgreePlan-ContentCard {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  height: 100%
+}
+
+.SThree-AgreePlan-Container {
+  max-width: 100%;
+}
+
+.rowSThree {
+  margin: 3% 0 3% 0;
+}
+
+.row .col-12 {
+  margin-bottom: 1.5rem;
+}
+
+.SThree-AgreePlan-ContentCard-MiddleContainer {
+  flex-direction: column;
+  display: flex;
+  margin: 0 10% 0 10%;
+  text-align: center;
+}
+
+/*Agreement Plan -- End*/
+/*Typografie Start*/
+.SThree-AgreePlan-CardTitle h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #3E5659;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.625rem;
+  margin-top: 0.625rem;
+}
+
+.SThree-AgreePlan-CardContent h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #3E5659;
+  letter-spacing: 0.025em;
+}
+
+.SectionThreeLastCalltoAction h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: #3E5659;
+  letter-spacing: 0.025em;
+  margin: 10% 0 3% 0;
+}
+
+/*Typografie End*/
+/*LatestCallToAction Start*/
+.HrSThree {
+  color: #3E5659;
+  margin: 0 3% 0 3%;
+}
+
+.SectionThreeLastCalltoAction {
+  max-width: 100%;
+  /*background-color: yellow;*/
+}
+
+.SThree-LCTA-Fitter {
+  flex-direction: column;
+  display: flex;
+  margin: 0 10% 0 10%;
+  text-align: center;
+}
+
+.SThree-LCTA-CallToAction {
+  /*background-color: blue;*/
+}
+
+.SThree-LCTA-row {
+  margin: 0;
+  /*background-color: red;*/
+}
+
+/*Buttons Start*/
+.SThree-LCTA-row .col:nth-child(1) {
+  display: flex;
+  justify-content: flex-End;
+}
+
+.SThree-LCTA-row .col:nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.SThree-LCTA-CallToActionButtons button span {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #3E5659;
+}
+
+.SThree-LCTA-CallToActionButtons button:nth-child(1) {
+  margin-right: 0.5rem;;
+}
+
+.SThree-LCTA-CallToActionButtons button:nth-child(1) {
+  margin-left: 0.5rem;;
+}
+
+/*Buttons End*/

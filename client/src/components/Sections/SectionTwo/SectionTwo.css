@@ -1,7 +1,7 @@
 .container-fluid {
   /* davor war hier 100rem */
   max-width: 100%;
-  padding: 2%;
+  padding: 3%;
 }
 
 .container-fluid .row {
