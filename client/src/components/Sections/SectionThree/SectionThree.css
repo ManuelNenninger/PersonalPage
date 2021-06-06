@@ -1,8 +1,7 @@
 /*Agreement Plan -- Start*/
 .sectionThreeContainer {
-  height: 100%;
   width: 100%;
-  flex-direction: column !important;
+  flex-direction: column;
 }
 
 .SThree-AgreePlan-ContentCard {
@@ -87,12 +86,12 @@
 }
 
 /*Buttons Start*/
-.SThree-LCTA-row .col:nth-child(1) {
+.SThree-LCTA-row .col-md-6:nth-child(1) {
   display: flex;
   justify-content: flex-End;
 }
 
-.SThree-LCTA-row .col:nth-child(2) {
+.SThree-LCTA-row .col-md-6:nth-child(2) {
   display: flex;
   justify-content: flex-start;
 }
@@ -100,15 +99,54 @@
 .SThree-LCTA-CallToActionButtons button span {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
-  color: #3E5659;
+  /* color: #3E5659; */
 }
 
 .SThree-LCTA-CallToActionButtons button:nth-child(1) {
-  margin-right: 0.5rem;;
+  margin-right: 0.5rem;
+  ;
 }
 
 .SThree-LCTA-CallToActionButtons button:nth-child(1) {
-  margin-left: 0.5rem;;
+  margin-left: 0.5rem;
+  ;
 }
 
 /*Buttons End*/
+/* Screen >md aber <lg */
+@media screen and (max-width: 992px) {
+  .SThree-AgreePlan-CardContent h3 {
+    font-size: 20px;
+  }
+
+  .SThree-AgreePlan-CardTitle h4 {
+    font-size: 36px;
+  }
+
+  .SectionThreeLastCalltoAction h1 {
+    font-size: 72px;
+  }
+}
+
+/* Screen <medium */
+@media screen and (max-width: 768px) {
+  .SThree-LCTA-row .col-md-6:nth-child(1n+0) {
+    justify-content: center;
+  }
+
+  .SectionThreeLastCalltoAction h1 {
+    font-size: 70px;
+  }
+
+  .SThree-LCTA-CallToActionButtons button span {
+    font-size: 25px;
+  }
+
+  .SThree-AgreePlan-CardContent h3 {
+    font-size: 22px;
+  }
+
+  .SThree-AgreePlan-CardTitle h4 {
+    font-size: 38px;
+  }
+}

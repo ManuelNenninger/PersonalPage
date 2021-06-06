@@ -8,6 +8,7 @@ import "./SectionHandler.css";
 import SectionOne from "./Sections/SectionOne/SectionOne";
 import SectionTwo from "./Sections/SectionTwo/SectionTwo";
 import SectionThree from "./Sections/SectionThree/SectionThree";
+import SectionFour from ".//Sections/SectionFour/SectionFour";
 
 function SectionHandler() {
   let [visibleSectionTwo, visibleSectionThree, visibleSectionFour] = [false];
@@ -59,7 +60,7 @@ function SectionHandler() {
               }} style={{
                 transformOrigin: '0 0 0'
               }} {...(isVisible ? { timeout: 700 } : {})}>
-              <h2>Section 4</h2>
+              <SectionFour />
             </Grow>
         }
       </VisibilitySensor>

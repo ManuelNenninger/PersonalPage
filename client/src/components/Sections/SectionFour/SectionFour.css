@@ -1,0 +1,39 @@
+.SFour-FooterFitter {
+  flex: 1;
+}
+.SFour-FooterTitel h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #3E5659;
+  letter-spacing: 0.025em;
+}
+
+.SFour-FooterTitel {
+  margin: 2rem 0 0.2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Start SocialIcons */
+.SFour-FooterSocialIconsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.SFour-SocialIconContainer {
+  margin: 0 5px;
+  height: 30px;
+}
+
+/* Anpassungen für XingIcon */
+.SocialIcon {
+  height: 28px;
+}
+.SFour-SocialIconContainer:nth-child(3){
+  display: flex;
+  align-items: flex-end;
+}
+/* End SocialIcons */
