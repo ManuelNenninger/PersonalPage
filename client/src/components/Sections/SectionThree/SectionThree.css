@@ -46,6 +46,8 @@
   font-weight: 400;
   color: #3E5659;
   letter-spacing: 0.025em;
+  line-height: 36px;
+
 }
 
 .SectionThreeLastCalltoAction h1 {
@@ -117,6 +119,7 @@
 @media screen and (max-width: 992px) {
   .SThree-AgreePlan-CardContent h3 {
     font-size: 20px;
+    line-height: 32px;
   }
 
   .SThree-AgreePlan-CardTitle h4 {

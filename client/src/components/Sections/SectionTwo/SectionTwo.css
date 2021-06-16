@@ -20,14 +20,14 @@
   max-width: -webkit-fill-available;
   max-width: -moz-available;
   margin: 0;
-
   /* damit die Crads mind. alle gleich sind. Also alle gleich 100% height: und width benötigen */
   width: 100%;
   height: 100%;
 }
 
 .cardsection img {
-  height: 19rem;
+  height: 240px;
+  width: 360px;
   z-index: -1;
 }
 
@@ -40,14 +40,14 @@
 
 .cardsection h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
   color: #3E5659;
   letter-spacing: 0.025em;
-  margin-bottom: 0.625rem;
-  margin-top: 0.625rem;
+  /* margin-bottom: 0.625rem;
+  margin-top: 0.625rem; */
+  margin: 1rem 0 2.5rem 0;
 }
-
 
 .cardsection h3 {
   font-family: 'Poppins', sans-serif;
@@ -57,69 +57,78 @@
   letter-spacing: 0.025em;
 }
 
-
-
 /* Card specific CSS */
-
 .cardOneActivOverlay {
   background-color: #FFE0A3;
   text-align: left;
   z-index: -1;
   height: 100%;
   display: flex;
-  flex-direction: column!important;
-  padding: 0px 1.5rem 0 1.5rem;
+  flex-direction: column !important;
+  padding: 0 3rem 0 3rem;
   width: 100%;
 }
 
-
 .cardsection .cardOneActivTitel h4 {
-  margin: 1.5rem 0 0.5rem 0rem;
+  margin: 72px 0 12px 0;
   font-weight: 600;
 }
 
 .cardsection .cardOneActivContent h3 {
   /* margin-left: 3rem; */
-  line-height: 3rem;
+  line-height: 36px;
   letter-spacing: 0.04rem;
-  font-size: 33px;
+  font-size: 25px;
+  margin-bottom: 12px;
 }
 
-.textForPretty {
+.STwo-cardsection-Fitter {
   display: flex;
-  flex-direction: column!important;
+  flex-direction: column !important;
   padding: 0px 2.5rem 0 2.5rem;
   flex: 1;
 }
 
+.cardOnePicture {
+  margin: 4rem 0 0.5rem 0;
+}
+
+.cardOneTitel {
+  border-top: 1px solid rgb(116, 160, 166);
+}
+
+
+
 /* Screen >md aber <lg */
-@media screen and (max-width: 992px){
-
-   .cardsection h4 {
-     font-size: 36px;
-   }
-   .cardsection img {
-     height: 16rem;
-   }
-
+@media screen and (max-width: 992px) {
+  .cardsection h4 {
+    font-size: 32px;
   }
+
+  .cardsection img {
+    height: 12rem;
+  }
+}
 
 /* Screen <medium */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-/* Man braucht eine vorgegebene Höhe sobald eine Zelle auch eine Row is, sonst passt der Kontext sich immer an und ist zu Card Active / unactive unterschiedlich */
+  /* Man braucht eine vorgegebene Höhe sobald eine Zelle auch eine Row is, sonst passt der Kontext sich immer an und ist zu Card Active / unactive unterschiedlich */
   .cardsection {
-    height: 20rem;
+    height: 25rem;
   }
+
   .cardsection .cardOneActivTitel h4 {
     font-size: 32px;
-   }
-   .cardsection .cardOneActivContent h3 {
-    font-size: 28px;
-   }
-
-
-   .cardsection h4 {
-     font-size: 32px;
-   }
+    line-height: 42px;
   }
+
+  .cardsection .cardOneActivContent h3 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .cardsection h4 {
+    font-size: 32px;
+  }
+}

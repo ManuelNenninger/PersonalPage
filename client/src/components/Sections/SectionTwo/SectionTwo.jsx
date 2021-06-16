@@ -14,7 +14,7 @@ function SectionTwo() {
           CardOneActiveTitel="Business Websites"
           CardOneActiveContent="Show the world what you have to offer and win more clients through the internet."
           CardOneUnActiveTitel="Business Websites"
-          CardOneUnActiveImage="/pictures/Add to Cart-cuate.svg"
+          CardOneUnActiveImage="/pictures/Landing page-bro.svg"
         />
       </div>
       <div className="col-md-6 col-12">
@@ -22,7 +22,7 @@ function SectionTwo() {
           CardOneActiveTitel="Landing Page"
           CardOneActiveContent="Get early feedback for your MVP or create an email subscription for a soon released product."
           CardOneUnActiveTitel="Landing Pages"
-          CardOneUnActiveImage="/pictures/Market launch-rafiki-3.svg"
+          CardOneUnActiveImage="/pictures/Creation process-cuate.svg"
         />
       </div>
     </div>
