@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "none",
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(1),
   },
   title: {
     flexGrow: 1,
@@ -28,14 +28,38 @@ const useStyles = makeStyles((theme) => ({
   },
   typography: {
     fontFamily: "Poppins",
+    margin: theme.spacing(1),
   },
 
+}));
+const callToActionButton = makeStyles((theme) => ({
+  root: {
+    backgroundColor: "rgba(255,224,163, 1)",
+    borderColor: '#FFE0A3',
+    boxShadow: 'none',
+    color: '#3E5659',
+    margin: theme.spacing(1),
+    '&:hover': {
+      backgroundColor: 'rgba(255,224,163, 0.8)',
+      boxShadow: 'none',
+      color: '#3E5659',
+    },
+    '&:active': {
+      boxShadow: 'none',
+      backgroundColor: '#FFE0A3',
+
+    },
+    '&:focus': {
+      boxShadow: '0 0 0 0.2rem rgba(116,160,166, 0.5)',
+    },
+  },
 }));
 
 
 
 export default function ButtonAppBar() {
   const classes = useStyles();
+  const callToActionButtonClasses = callToActionButton();
 
   return (
     <div >
@@ -47,7 +71,7 @@ export default function ButtonAppBar() {
           </Typography>
           <Button color="inherit" className={classes.typography} >Work</Button >
           <Button color="inherit" className={classes.typography} >About</Button >
-          <Button color="inherit" className={classes.typography} >Call to Action</Button >
+          <Button color="inherit" className={callToActionButtonClasses.root} >Call to Action</Button >
         </Toolbar>
       </AppBar>
 

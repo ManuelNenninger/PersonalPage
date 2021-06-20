@@ -8,10 +8,10 @@ function SectionThreeAgreementPlan() {
           <div className="SThree-AgreePlan-ContentCard">
             <div className="SThree-AgreePlan-ContentCard-MiddleContainer">
               <div className="SThree-AgreePlan-CardTitle">
-                <h4>Lorem ipsum</h4>
+                <h4>I Don´t bite</h4>
               </div>
               <div className="SThree-AgreePlan-CardContent">
-                <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</h3>
+                <h3>Just send me a quick message, so we can talk about you and your business. Let us find out what fits perfekt for you.</h3>
               </div>
             </div>
           </div>
@@ -20,7 +20,7 @@ function SectionThreeAgreementPlan() {
           <div className="SThree-AgreePlan-ContentCard">
             <div className="SThree-AgreePlan-ContentCard-MiddleContainer">
               <div className="SThree-AgreePlan-CardTitle">
-                <h4>Lorem ipsum</h4>
+                <h4>Full reversion</h4>
               </div>
               <div className="SThree-AgreePlan-CardContent">
                 <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</h3>

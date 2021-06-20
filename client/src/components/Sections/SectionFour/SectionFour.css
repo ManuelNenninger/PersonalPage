@@ -1,6 +1,7 @@
 .SFour-FooterFitter {
   flex: 1;
 }
+
 .SFour-FooterTitel h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
@@ -10,7 +11,7 @@
 }
 
 .SFour-FooterTitel {
-  margin: 2rem 0 0.2rem 0;
+  margin: 72px 0 12px 0;
   display: flex;
   justify-content: center;
 }
@@ -20,7 +21,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin: 12px 0 12px 0;
 }
 
 .SFour-SocialIconContainer {
@@ -28,12 +29,48 @@
   height: 30px;
 }
 
+.SFour-FooterSocialContainer {
+  margin-bottom: 36px;
+}
+
+.HrSTFour-icon {
+  margin: 0px 40% 0 40%;
+}
+
 /* Anpassungen für XingIcon */
 .SocialIcon {
   height: 28px;
 }
-.SFour-SocialIconContainer:nth-child(3){
+
+.SFour-SocialIconContainer:nth-child(3) {
   display: flex;
   align-items: flex-end;
 }
+
 /* End SocialIcons */
+/* CopyRight Start */
+.copyRight {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.copyRight p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3E5659;
+  letter-spacing: 0.025em;
+}
+
+/* CopyRight End */
+@media screen and (max-width: 992px) {
+  .HrSTFour-icon {
+    margin: 0px 35% 0 35%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .HrSTFour-icon {
+    margin: 0px 30% 0 30%;
+  }
+}

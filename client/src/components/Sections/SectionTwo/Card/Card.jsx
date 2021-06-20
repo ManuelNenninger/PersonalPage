@@ -25,7 +25,7 @@ function Card(props) {
 
 
   return (
-    <div className="cardsection" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+    <div className="cardsection" onMouseEnter={handleMouseOver} onMouseLeave={handleMouseOut}>
       {isMouseOver ?
       (<CardOneActive
         CardOneActiveTitel={props.CardOneActiveTitel}
