@@ -51,7 +51,7 @@ function SectionThreeLastCalltoAction() {
     <div className="SectionThreeLastCalltoAction">
   <div className="SThree-LCTA-Fitter">
     <div className="SThree-LCTA-CallToAction">
-      <h1>Lorem ipsum Column</h1>
+      <h1>Let´s build beautiful, meaningful things together.</h1>
     </div>
     <div className="SThree-LCTA-CallToActionButtons">
       <div className="row SThree-LCTA-row justify-content-md-center">
