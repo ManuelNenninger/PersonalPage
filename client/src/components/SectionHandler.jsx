@@ -1,7 +1,4 @@
-import React, {
-  useState,
-  useEffect
-} from 'react';
+import React from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import Grow from '@material-ui/core/Grow';
 import "./SectionHandler.css";

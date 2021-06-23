@@ -3,6 +3,9 @@
 function SectionThreeAgreementPlan() {
   return (
     <div className="SThree-AgreePlan-Container">
+    <div className="SThree-AgreePlan-Header">
+      <h4>But why me?</h4>
+    </div>
       <div className="row rowSThree">
         <div className="col-md-4 col-12">
           <div className="SThree-AgreePlan-ContentCard">
@@ -32,7 +35,7 @@ function SectionThreeAgreementPlan() {
           <div className="SThree-AgreePlan-ContentCard">
             <div className="SThree-AgreePlan-ContentCard-MiddleContainer">
               <div className="SThree-AgreePlan-CardTitle">
-                <h4>Lorem ipsum</h4>
+                <h4>Completely to your needs</h4>
               </div>
               <div className="SThree-AgreePlan-CardContent">
                 <h3>You need fast loading and mobile responsive website? SEO optimization to increase your visibility? We help you to realize your needs.</h3>
