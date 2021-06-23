@@ -1,6 +1,7 @@
 
 import "./Navbar.css";
 import React from 'react';
+import { Link } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -63,10 +64,10 @@ export default function ButtonAppBar() {
       <AppBar position="static" classes={{root: classes.root}}>
         <Toolbar >
           <Typography variant="h6" className={classes.title}>
-            Manuel Nenninger
+            <Link to="/">Manuel Nenninger</Link>
           </Typography>
           <Button color="inherit" className={classes.typography} >Work</Button >
-          <Button color="inherit" className={classes.typography} >About</Button >
+          <Button color="inherit" className={classes.typography} ><Link to="/about">About</Link></Button >
           <Button color="inherit" className={callToActionButtonClasses.root} >Call to Action</Button >
         </Toolbar>
       </AppBar>

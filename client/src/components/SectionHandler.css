@@ -6,7 +6,7 @@
 
 }
 
-section {
+.scroll-container section {
   min-height: calc(100vh - 64px);
   scroll-snap-align: start;
   display: flex;
@@ -20,29 +20,29 @@ section {
 
 }
 
-section:nth-child(1){
+.scroll-container section:nth-child(1){
   position: relative;
   justify-content: flex-start;
 }
-section:nth-child(3){
+.scroll-container section:nth-child(3){
   align-items: normal;
 }
-section:nth-child(4){
+.scroll-container section:nth-child(4){
   min-height: 5rem;
 }
 
 
 
 /* flex: 1 damit das Div den gesamten Flex-Container füllt. Hier wird aus der Section 2 das erste Div ausgewählt */
-section:nth-child(2) > div:first-of-type {
+.scroll-container section:nth-child(2) > div:first-of-type {
   flex: 1
 }
-section:nth-child(3) > div:first-of-type {
+.scroll-container section:nth-child(3) > div:first-of-type {
   flex: 1
 }
 
 @media screen and (max-width: 768px){
-    section {
+    .scroll-container section {
       scroll-snap-align: none;
     }
   }
