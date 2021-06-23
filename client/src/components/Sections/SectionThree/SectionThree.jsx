@@ -11,7 +11,6 @@ function SectionThree(props) {
       <SectionThreeAgreementPlan />
       <hr className="HrSThree"/>
       <SectionThreeLastCalltoAction />
-
     </div>
   </>
   );
