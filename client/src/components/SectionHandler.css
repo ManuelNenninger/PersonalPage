@@ -13,9 +13,9 @@
   align-items: center;
   justify-content: center;
   /* Das es immer zentriert ist */
+  /* Begrenzung auf max. Bildschirmgröße */
   margin-right: auto;
   margin-left: auto;
-  /* Begrenzung auf max. Bildschirmgröße */
   max-width: 1600px;
 
 }

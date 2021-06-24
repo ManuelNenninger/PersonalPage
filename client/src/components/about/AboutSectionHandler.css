@@ -1,0 +1,48 @@
+.About-SectionOne-content-wrapper-text {
+  display: flex;
+  flex-direction: column;
+}
+.About-SectionOne-content-wrapper {
+  margin: 0 3% 0 3%;
+}
+.About-SectionOne-content-wrapper-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.About-SectionOne-content-wrapper-image img {
+  height: 840px;
+  width: 800px;
+}
+
+/*Typografie Start*/
+.About-SectionOne-content-wrapper-content h4 {
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 700;
+}
+.About-SectionOne-content-wrapper-titel h3 {
+  font-size: 32px;
+  line-height: 40px;
+}
+/*Typografie End*/
+
+/* Screen >md aber <lg */
+@media screen and (max-width: 992px) {
+.About-SectionOne-content-wrapper-image img {
+  height: 752px;
+  width: 665px;
+}
+.About-SectionOne-content-wrapper-content h4 {
+  font-size: 40px;
+  line-height: 44px;
+}
+.About-SectionOne-content-wrapper-titel h3 {
+  font-size: 25.6px;
+  line-height: 38px;
+}
+
+
+}
+
+/* Screen <medium */
+@media screen and (max-width: 768px) {}
