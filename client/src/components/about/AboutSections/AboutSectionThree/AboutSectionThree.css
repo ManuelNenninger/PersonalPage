@@ -1,0 +1,22 @@
+.About-SectionThree-RowForContent .col-md-6:first-of-type {
+  width: 60%;
+}
+
+.About-SectionThree-RowForContent .col-md-6:last-of-type {
+  width: 40%;
+}
+/* Screen <medium */
+@media screen and (max-width: 768px) {
+  .About-SectionThree-RowForContent .col-md-6:first-of-type {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .About-SectionThree-RowForContent .col-md-6:last-of-type {
+    width: 100%;
+  }
+
+  .About-SectionThree-content-wrapper-image img {
+    max-width: 70%;
+  }
+}

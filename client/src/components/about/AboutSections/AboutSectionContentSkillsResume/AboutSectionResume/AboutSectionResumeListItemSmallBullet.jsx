@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutSectionTwoResumeListItemSmallBullet(props) {
+function AboutSectionResumeListItemSmallBullet(props) {
   return (
     <>
   <li>
@@ -9,14 +9,14 @@ function AboutSectionTwoResumeListItemSmallBullet(props) {
         <circle stroke="none" cx="16" cy="16" r="10"></circle>
       </svg>
     </div>
-    <div className="About-SectionTwo-content-wrapper-Resume-content">
-      <div className="About-SectionTwo-content-wrapper-Resume-zeitraum">
+    <div className="About-Section-content-wrapper-Resume-content">
+      <div className="About-Section-content-wrapper-Resume-zeitraum">
         <h3>{props.zeitraum}</h3>
       </div>
-      <div className="About-SectionTwo-content-wrapper-Resume-titel">
+      <div className="About-Section-content-wrapper-Resume-titel">
         <h3>{props.resumeTitel}</h3>
       </div>
-      <div className="About-SectionTwo-content-wrapper-Resume-describtion">
+      <div className="About-Section-content-wrapper-Resume-describtion">
         <h5>{props.resumeDescribtion}</h5>
       </div>
     </div>
@@ -25,4 +25,4 @@ function AboutSectionTwoResumeListItemSmallBullet(props) {
   );
 }
 
-export default AboutSectionTwoResumeListItemSmallBullet;
+export default AboutSectionResumeListItemSmallBullet;

@@ -1,5 +1,7 @@
 import AboutSectionOne from "./AboutSections/AboutSectionOne/AboutSectionOne";
 import AboutSectionTwo from "./AboutSections/AboutSectionTwo/AboutSectionTwo";
+import AboutSectionThree from "./AboutSections/AboutSectionThree/AboutSectionThree";
+
 
 
 function AboutSectionHandler() {
@@ -7,6 +9,7 @@ function AboutSectionHandler() {
     <>
       <AboutSectionOne />
       <AboutSectionTwo />
+      <AboutSectionThree />
 
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutSectionTwoResumeListItemBigBullet(props) {
+function AboutSectionResumeListItemBigBullet(props) {
   return (
     <>
     <li>
@@ -10,14 +10,14 @@ function AboutSectionTwoResumeListItemBigBullet(props) {
           <circle cx="16" cy="16" r="6"></circle>
         </svg>
       </div>
-      <div className="About-SectionTwo-content-wrapper-Resume-content">
-      <div className="About-SectionTwo-content-wrapper-Resume-zeitraum">
+      <div className="About-Section-content-wrapper-Resume-content">
+      <div className="About-Section-content-wrapper-Resume-zeitraum">
         <h3>Seit {props.zeitraum}</h3>
       </div>
-        <div className="About-SectionTwo-content-wrapper-Resume-titel">
+        <div className="About-Section-content-wrapper-Resume-titel">
           <h3>{props.resumeTitel}</h3>
         </div>
-        <div className="About-SectionTwo-content-wrapper-Resume-describtion">
+        <div className="About-Section-content-wrapper-Resume-describtion">
           <h5>{props.resumeDescribtion}</h5>
         </div>
       </div>
@@ -26,4 +26,4 @@ function AboutSectionTwoResumeListItemBigBullet(props) {
   );
 }
 
-export default AboutSectionTwoResumeListItemBigBullet;
+export default AboutSectionResumeListItemBigBullet;

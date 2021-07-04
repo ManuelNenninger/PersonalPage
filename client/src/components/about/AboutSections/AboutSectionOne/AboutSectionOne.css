@@ -54,4 +54,8 @@
   .About-SectionOne-content-wrapper-text {
     margin-top: calc(8px*10);
   }
+  .About-SectionOne-content-wrapper {
+    /* margin reduziert da zu viel white-space durch Bild */
+        margin: 0 3% 0 3%;
+  }
 }

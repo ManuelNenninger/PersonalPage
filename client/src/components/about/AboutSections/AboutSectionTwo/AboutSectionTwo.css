@@ -1,14 +1,19 @@
-/* SectionTwo generell */.About-SectionTwo-content-wrapper {
+/* SectionTwo generell */
+.About-SectionTwo-content-wrapper {
   margin-left: 3%;
   margin-right: 3%;
+  margin-bottom: 6%;
 }
- .About-SectionTwo-RowForContent .col-md-6:first-of-type{
+
+.About-SectionTwo-RowForContent .col-md-6:first-of-type {
   width: 40%;
   align-items: flex-start;
 }
+
 .About-SectionTwo-RowForContent .col-md-6:last-of-type {
   width: 60%;
 }
+
 .About-SectionTwo-content-wrapper-text {
   min-width: 100%;
   min-height: 100%;
@@ -17,14 +22,8 @@
   flex-direction: column;
 }
 
-
 .About-SectionTwo-content-wrapper-choiceButtons {
   margin-bottom: 12px;
-}
-
-/* Skills Content Start */
-.About-SectionTwo-content-wrapper-Skills {
-  margin-top: 12px;
 }
 
 .About-SectionTwo-content-wrapper-content {
@@ -32,15 +31,48 @@
   overflow-y: scroll;
 }
 
-.About-SectionTwo-content-wrapper-SkillsName {
-  width: 50%;
+.About-SectionTwo-content-wrapper-image {
+  flex: 1;
+  text-align: center;
 }
-/* Skills Content End  */
 
-/* Resume Content start */
-.About-SectionTwo-content-wrapper-ResumeList {
+.About-SectionTwo-content-wrapper-image img {
+  max-width: 100%;
+}
+
+/*Typografie generell Start*/
+.About-SectionTwo-content-wrapper-titel h4 {
+  font-size: 40px;
+  margin: 12px 0 12px 0;
+}
+
+.About-SectionTwo-content-wrapper-choiceButtons h3 {
+  font-size: 20px;
+}
+
+.About-SectionTwo-content-wrapper-SkillsName h3 {
+  font-size: 16.38px;
+  margin-bottom: 0;
+}
+/*Typografie generell End*/
+
+
+/* ---------> Skills & Resume Content Start <--------- */
+/* ---------> Skills Content Start <--------- */
+.About-Section-content-wrapper-Skills {
   margin-top: 12px;
 }
+
+.About-Section-content-wrapper-SkillsName {
+  width: 50%;
+}
+
+/* ---------> Skills Content End <--------- */
+/* ---------> Resume Content Start <--------- */
+.About-Section-content-wrapper-ResumeList {
+  margin-top: 12px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -48,7 +80,6 @@ ul {
 li {
   /* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
   position: relative;
-
   /* Use padding to space things out rather than margins as the line would get broken up otherwise */
   margin: 0;
   padding-bottom: 1em;
@@ -61,67 +92,91 @@ li:before {
   width: 2px;
   content: '';
   position: absolute;
-  top: 0px;
-  bottom: 0px;
+  top: 0;
+  bottom: 0;
   left: 5px;
 }
 
 /* Start the line further down on the first list item */
-li:first-child:before { top: 15px;  }
+li:first-child:before {
+  top: 15px;
+}
 
 /* Stop the line short on the final list item */
 /* Wenn die Linie zu kurz wird, den bottom Wert anpassen */
-li:last-child:before { height: 10px; }
+li:last-child:before {
+  height: 10px;
+}
 
 /* Styles for the SVG bullet points */
-.bullet { margin-left: -25px; width: 22px; fill: #3E5659; float: left; padding-right: 10px }
-.bullet.big { width: 25px; margin-left: -27px; padding-right: 8px }
+.bullet {
+  margin-left: -25px;
+  width: 22px;
+  fill: #3E5659;
+  float: left;
+  padding-right: 10px
+}
 
-.About-SectionTwo-content-wrapper-Resume-titel h3 {
+.bullet.big {
+  width: 25px;
+  margin-left: -27px;
+  padding-right: 8px
+}
+
+.About-Section-content-wrapper-Resume-titel h3 {
   font-size: 25.6px;
   text-decoration: underline 1px;
   text-underline-offset: 2px;
   line-height: 35px;
 }
-.About-SectionTwo-content-wrapper-Resume-zeitraum h3 {
+
+.About-Section-content-wrapper-Resume-zeitraum h3 {
   font-size: 16.38px;
 }
-.About-SectionTwo-content-wrapper-Resume-describtion h5{
+
+.About-Section-content-wrapper-Resume-describtion h5 {
   font-size: 20.38px;
   line-height: 32px;
 }
-.About-SectionTwo-content-wrapper-Resume-describtion {
+
+.About-Section-content-wrapper-Resume-describtion {
   font-size: 16.38px;
 }
-.About-SectionTwo-content-wrapper-Resume-content {
+
+.About-Section-content-wrapper-Resume-content {
   max-width: 80%;
 }
-/* Resume Content End */
 
-.About-SectionTwo-content-wrapper-image img {
-  width: 500px;
-}
-/*Typografie Start*/
-.About-SectionTwo-content-wrapper-titel h4 {
-  font-size: 40px;
-  margin: 12px 0 12px 0;
-}
-.About-SectionTwo-content-wrapper-choiceButtons h3 {
-  font-size: 20px;
-}
-
-.About-SectionTwo-content-wrapper-SkillsName h3 {
+.About-Section-content-wrapper-SkillsName h3 {
   font-size: 16.38px;
   margin-bottom: 0;
 }
-/*Typografie End*/
 
+/* ---------> Resume Content End <--------- */
+/*Typografie generell End*/
 /* Screen >md aber <lg */
 @media screen and (max-width: 992px) {
+  .About-Section-content-wrapper-Resume-content {
+    max-width: 95%;
+  }
 
+  .About-SectionTwo-content-wrapper-titel h4 {
+    font-size: 32px;
+  }
 }
 
 /* Screen <medium */
 @media screen and (max-width: 768px) {
+  .About-SectionTwo-RowForContent .col-md-6:first-of-type {
+    width: 100%;
+    align-items: flex-start;
+  }
 
+  .About-SectionTwo-RowForContent .col-md-6:last-of-type {
+    width: 100%;
+  }
+
+  .About-SectionTwo-content-wrapper-image img {
+    max-width: 70%;
+  }
 }

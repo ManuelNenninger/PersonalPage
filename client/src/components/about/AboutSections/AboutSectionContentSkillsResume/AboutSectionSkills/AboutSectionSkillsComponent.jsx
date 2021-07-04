@@ -20,7 +20,7 @@ const useStyles = makeStyles({
 
 
 
-function AboutSectionTwoSkillsComponent(props) {
+function AboutSectionSkillsComponent(props) {
   const classes = useStyles();
   const [progress, setProgress] = React.useState(0);
 
@@ -41,11 +41,11 @@ function AboutSectionTwoSkillsComponent(props) {
 
   return (
     <>
-    <div className="About-SectionTwo-content-wrapper-Skills">
-      <div className="About-SectionTwo-content-wrapper-SkillsName">
+    <div className="About-Section-content-wrapper-Skills">
+      <div className="About-Section-content-wrapper-SkillsName">
         <h3>{props.skillName}</h3>
       </div>
-      <div className="About-SectionTwo-content-wrapper-SkillsBar">
+      <div className="About-Section-content-wrapper-SkillsBar">
         <Box display="flex" alignItems="center">
           <Box width="60%" mr={1}>
             <LinearProgress classes={{root: classes.root, barColorPrimary: classes.barColorPrimary}} variant="determinate" value={progress} />
@@ -60,4 +60,4 @@ function AboutSectionTwoSkillsComponent(props) {
   );
 }
 
-export default AboutSectionTwoSkillsComponent;
+export default AboutSectionSkillsComponent;
