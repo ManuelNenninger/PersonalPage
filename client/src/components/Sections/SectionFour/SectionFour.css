@@ -11,7 +11,7 @@
 }
 
 .SFour-FooterTitel {
-  margin: 72px 0 12px 0;
+  margin: calc(72px - 24px) 0 12px 0;
   display: flex;
   justify-content: center;
 }

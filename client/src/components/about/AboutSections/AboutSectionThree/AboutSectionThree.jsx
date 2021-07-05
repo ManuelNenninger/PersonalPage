@@ -61,10 +61,15 @@ function AboutSectionThree() {
 
 const resumeArray = [
   {
+    zeitraum: "Aug. 2021",
+    resumeTitel: "Freelancer",
+    resumeDescribtion: "lelelelelele llelel lololo",
+  },
+  {
     zeitraum: "Jan. 2021",
     resumeTitel: "Start of the juornay",
     resumeDescribtion: "lelelelelele llelel lololo",
-  },
+  },  
 ]
 
 return (
