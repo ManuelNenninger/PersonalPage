@@ -7,20 +7,20 @@ import Button from '@material-ui/core/Button';
 
 const ContactButton = makeStyles((theme) => ({
   root: {
-    backgroundColor: "rgba(255,224,163, 1)",
-    borderColor: '#FFE0A3',
+    backgroundColor: "#FFD791",
+    borderColor: '#FFD791',
     boxShadow: 'none',
-    color: '#3E5659',
+    color: '#3D5559',
     margin: theme.spacing(3),
     fontSize: "20.48px",
     '&:hover': {
-      backgroundColor: '#3E5659',
+      backgroundColor: '#3D5559',
       boxShadow: 'none',
       color: '#FFFFFF',
     },
     '&:active': {
       boxShadow: 'none',
-      backgroundColor: '#FFE0A3',
+      backgroundColor: '#FFD791',
 
     },
     '&:focus': {
@@ -33,7 +33,7 @@ const AboutButton = makeStyles((theme) => ({
   root: {
     border: "1px solid rgb(62,86,89)",
     boxShadow: 'none',
-    color: '#3E5659',
+    color: '#3D5559',
     margin: theme.spacing(3),
     fontSize: "20.48px",
     '&:hover': {

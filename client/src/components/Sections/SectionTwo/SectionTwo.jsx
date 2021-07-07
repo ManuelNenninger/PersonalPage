@@ -14,7 +14,7 @@ function SectionTwo() {
           CardOneActiveTitel="Business Websites"
           CardOneActiveContent="Show the world what you have to offer and win more clients through the internet."
           CardOneUnActiveTitel="Business Websites"
-          CardOneUnActiveImage="/pictures/Landing page-bro.svg"
+          CardOneUnActiveImage="/pictures/Landing page-bro-2.svg"
         />
       </div>
       <div className="col-md-6 col-12">
@@ -32,7 +32,7 @@ function SectionTwo() {
           CardOneActiveTitel="Personal Website"
           CardOneActiveContent="Show the world and interested recruiters who you are and what you can do. So the requests come to you - and you can focus on more important things."
           CardOneUnActiveTitel="Personal Website"
-          CardOneUnActiveImage="/pictures/Buffer-pana.svg"
+          CardOneUnActiveImage="/pictures/Buffer-pana-2.svg"
         />
       </div>
       <div className="col-md-6 col-12">

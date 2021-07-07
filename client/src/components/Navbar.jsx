@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     background: 'transparent',
-    color: "#3E5659;",
+    color: "#3D5559;",
     boxShadow: "0px 0px 2px 0px #445e61",
   },
   menuButton: {
@@ -31,19 +31,19 @@ const useStyles = makeStyles((theme) => ({
 }));
 const callToActionButton = makeStyles((theme) => ({
   root: {
-    backgroundColor: "rgba(255,224,163, 1)",
-    borderColor: '#FFE0A3',
+    backgroundColor: "#FFD791",
+    borderColor: '#FFD791',
     boxShadow: 'none',
-    color: '#3E5659',
+    color: '#3D5559',
     margin: theme.spacing(1),
     '&:hover': {
-      backgroundColor: 'rgba(255,224,163, 0.8)',
+      backgroundColor: 'rgba(255,215,145, 0.8)',
       boxShadow: 'none',
-      color: '#3E5659',
+      color: '#3D5559',
     },
     '&:active': {
       boxShadow: 'none',
-      backgroundColor: '#FFE0A3',
+      backgroundColor: '#FFD791',
 
     },
     '&:focus': {

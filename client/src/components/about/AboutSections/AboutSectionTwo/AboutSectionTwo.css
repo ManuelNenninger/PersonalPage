@@ -88,7 +88,7 @@ li {
 
 /* The actual line being placed before each list item, tweak width and color as appropriate */
 li:before {
-  background-color: #3E5659;
+  background-color: #3D5559;
   width: 2px;
   content: '';
   position: absolute;
@@ -112,7 +112,7 @@ li:last-child:before {
 .bullet {
   margin-left: -25px;
   width: 22px;
-  fill: #3E5659;
+  fill: #3D5559;
   float: left;
   padding-right: 10px
 }

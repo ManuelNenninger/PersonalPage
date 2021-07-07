@@ -8,18 +8,18 @@ import AboutSectionResume from "../AboutSectionContentSkillsResume/AboutSectionR
 
 const Switchbuttons = makeStyles((theme) => ({
   root: {
-    backgroundColor: "rgba(62,86,89, 0.4)",
-    borderColor: '#3E5659',
+    backgroundColor: "rgba(61,85,89, 0.4)",
+    borderColor: '#3D5559',
     boxShadow: 'none',
     color: '#FFFFFF',
     '&:hover': {
-      backgroundColor: 'rgba(62,86,89, 0.5)',
+      backgroundColor: 'rgba(61,85,89, 0.5)',
       boxShadow: 'none',
       color: '#FFFFFF',
     },
     '&:active': {
       boxShadow: 'none',
-      backgroundColor: 'rgba(62,86,89, 0.5)',
+      backgroundColor: 'rgba(61,85,89, 0.5)',
     },
   },
 }));
@@ -69,7 +69,7 @@ const resumeArray = [
     zeitraum: "Jan. 2021",
     resumeTitel: "Start of the juornay",
     resumeDescribtion: "lelelelelele llelel lololo",
-  },  
+  },
 ]
 
 return (
@@ -97,7 +97,7 @@ return (
         </div>
         <div className="col-md-6 col-12">
           <div className="About-SectionTwo-content-wrapper-image">
-            <img src="/pictures/Code typing-bro.svg" alt="" />
+            <img src="/pictures/Code typing-bro-2.svg" alt="" />
           </div>
         </div>
       </div>

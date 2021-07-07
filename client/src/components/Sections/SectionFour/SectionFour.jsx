@@ -9,7 +9,7 @@ import {
 
 const socialIconsStyle = makeStyles((theme) => ({
   root: {
-    color: '#3E5659',
+    color: '#3D5559',
     fontSize: 35,
   },
 }));

@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(190deg, #48B1C0, #EEF3F9);
+  background-image: linear-gradient(190deg, #4da7b6, #dce8f0);
   height: 100%;
   min-height: 100%;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@ html {
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Poppins', sans-serif;
-  color: #3E5659;
+  color: #3D5559;
   letter-spacing: 0.025em;
 }
 

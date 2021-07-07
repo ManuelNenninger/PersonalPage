@@ -18,7 +18,7 @@
   margin: 48px 0 24px 0;
 }
 .SThree-AgreePlan-CardTitle {
-  border-top: 1px solid rgba(62, 86, 89, 0.7);
+  border-top: 1px solid rgba(61, 85, 89, 0.7);
 }
 .rowSThree {
   margin: 0 0 3% 0;
@@ -41,7 +41,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #3E5659;
+  color: #3D5559;
   letter-spacing: 0.025em;
   margin-bottom: 0.625rem;
   margin-top: 0.625rem;
@@ -50,7 +50,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  color: #3E5659;
+  color: #3D5559;
   letter-spacing: 0.025em;
   margin-bottom: 0.625rem;
   margin-top: 0.625rem;
@@ -60,7 +60,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 21px;
   font-weight: 400;
-  color: #3E5659;
+  color: #3D5559;
   letter-spacing: 0.025em;
   line-height: 36px;
 
@@ -70,7 +70,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 62.5px;
   font-weight: 400;
-  color: #3E5659;
+  color: #3D5559;
   letter-spacing: 0.025em;
   margin: 10% 0 3% 0;
 }
@@ -78,7 +78,7 @@
 /*Typografie End*/
 /*LatestCallToAction Start*/
 .HrSThree {
-  color: #3E5659;
+  color: #3D5559;
   margin: 0 3% 0 3%;
 }
 
@@ -117,7 +117,7 @@
 .SThree-LCTA-CallToActionButtons button span {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
-  /* color: #3E5659; */
+  /* color: #3D5559; */
 }
 
 .SThree-LCTA-CallToActionButtons button:nth-child(1) {
