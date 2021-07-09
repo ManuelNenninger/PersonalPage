@@ -3,9 +3,6 @@
 function SectionThreeAgreementPlan() {
   return (
     <div className="SThree-AgreePlan-Container">
-    <div className="SThree-AgreePlan-Header">
-      <h4>But why me?</h4>
-    </div>
       <div className="row rowSThree">
         <div className="col-md-4 col-12">
           <div className="SThree-AgreePlan-ContentCard">

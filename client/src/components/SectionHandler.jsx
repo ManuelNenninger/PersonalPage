@@ -6,6 +6,7 @@ import SectionOne from "./Sections/SectionOne/SectionOne";
 import SectionTwo from "./Sections/SectionTwo/SectionTwo";
 import SectionThree from "./Sections/SectionThree/SectionThree";
 import SectionFour from ".//Sections/SectionFour/SectionFour";
+import Footer from "./Sections/Footer/Footer";
 
 function SectionHandler() {
   let [visibleSectionTwo, visibleSectionThree, visibleSectionFour] = [false];

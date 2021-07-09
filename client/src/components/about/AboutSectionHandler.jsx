@@ -13,7 +13,9 @@ function AboutSectionHandler() {
       <AboutSectionTwo />
       <AboutSectionThree />
       <AboutSectionFour />
+      <section className="About-SectionFooter">
       <Footer />
+      </section>
     </>
   );
 }

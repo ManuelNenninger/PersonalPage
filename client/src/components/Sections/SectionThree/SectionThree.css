@@ -15,13 +15,13 @@
 
 .SThree-AgreePlan-Header {
   text-align: center;
-  margin: 48px 0 24px 0;
+  margin: 36px 0 24px 0;
 }
 .SThree-AgreePlan-CardTitle {
-  border-top: 1px solid rgba(61, 85, 89, 0.7);
+  /* border-top: 1px solid rgba(61, 85, 89, 0.7); */
 }
 .rowSThree {
-  margin: 0 0 3% 0;
+  margin: 1% 0 3% 0;
 }
 
 .row .col-12 {
@@ -32,7 +32,7 @@
   flex-direction: column;
   display: flex;
   margin: 0 10% 0 10%;
-  text-align: left;
+  text-align: center;
 }
 
 /*Agreement Plan -- End*/
@@ -72,7 +72,7 @@
   font-weight: 400;
   color: #3D5559;
   letter-spacing: 0.025em;
-  margin: 10% 0 3% 0;
+  margin: 84px 0 36px 0;
 }
 
 /*Typografie End*/
@@ -90,7 +90,7 @@
 .SThree-LCTA-Fitter {
   flex-direction: column;
   display: flex;
-  margin: 0 10% 0 10%;
+  margin: 0 10% 3% 10%;
   text-align: center;
 }
 

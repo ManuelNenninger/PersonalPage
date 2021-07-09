@@ -8,6 +8,8 @@
   font-weight: 400;
   color: #3D5559;
   letter-spacing: 0.025em;
+  margin-bottom: 0px;
+
 }
 
 .SFour-FooterTitel {
@@ -30,7 +32,7 @@
 }
 
 .SFour-FooterSocialContainer {
-  margin-bottom: 36px;
+  padding-bottom: 12px;
 }
 
 .HrSTFour-icon {
@@ -51,7 +53,7 @@
 /* CopyRight Start */
 .copyRight {
   text-align: center;
-  margin-top: 6px;
+  margin-top: 24px;
 }
 
 .copyRight p {
@@ -60,6 +62,7 @@
   font-weight: 400;
   color: #3D5559;
   letter-spacing: 0.025em;
+  margin-bottom: 0px;
 }
 
 /* CopyRight End */

@@ -21,7 +21,6 @@ function SectionFour() {
   return (
     <>
   <div className="SFour-FooterFitter">
-    <hr className="HrSThree" />
     <div className="SFour-FooterTitel">
       <h3>Connect with me</h3>
     </div>
