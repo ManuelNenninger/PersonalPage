@@ -8,7 +8,7 @@ return (
       <div className="col-md-6 col-12">
         <div className="About-SectionOne-content-wrapper-text">
           <div className="About-SectionOne-content-wrapper-titel">
-            <h3>Hello, I´m Manuel</h3>
+            <h3>Hello, I am Manuel</h3>
           </div>
           <div className="About-SectionOne-content-wrapper-content">
             <h4>I am a mechanical engineer and fullstack developer from munich</h4>

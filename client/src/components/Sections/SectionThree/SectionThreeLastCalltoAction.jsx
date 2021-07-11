@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
 
 const ContactButton = makeStyles((theme) => ({
   root: {
@@ -57,12 +58,12 @@ function SectionThreeLastCalltoAction() {
       <div className="row SThree-LCTA-row justify-content-md-center">
         <div className="col-12 col-md-6">
           <Button variant="contained" size="large" color="primary" className={ContactButtonclasses.root}>
-            Contact me
+            <a href="mailto:manuel.nenninger@web.de?subject=Mail from Your Site">Contact me</a>
           </Button>
         </div>
         <div className="col-12 col-md-6">
           <Button variant="outlined" size="large" color="primary" className={AboutButtonclasses.root}>
-            About Me
+            <Link to="/about">About Me</Link>
           </Button>
         </div>
       </div>

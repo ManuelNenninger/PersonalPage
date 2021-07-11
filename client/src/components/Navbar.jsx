@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     background: 'transparent',
-    color: "#3D5559;",
+    color: "#3E5659;",
     boxShadow: "0px 0px 2px 0px #445e61",
   },
   menuButton: {
@@ -34,12 +34,12 @@ const callToActionButton = makeStyles((theme) => ({
     backgroundColor: "#FFD791",
     borderColor: '#FFD791',
     boxShadow: 'none',
-    color: '#3D5559',
+    color: '#3E5659',
     margin: theme.spacing(1),
     '&:hover': {
       backgroundColor: 'rgba(255,215,145, 0.8)',
       boxShadow: 'none',
-      color: '#3D5559',
+      color: '#3E5659',
     },
     '&:active': {
       boxShadow: 'none',
@@ -68,7 +68,9 @@ export default function ButtonAppBar() {
           </Typography>
           <Button color="inherit" className={classes.typography} >Work</Button >
           <Button color="inherit" className={classes.typography} ><Link to="/about">About</Link></Button >
-          <Button color="inherit" className={callToActionButtonClasses.root} >Call to Action</Button >
+          <Button color="inherit" className={callToActionButtonClasses.root} >
+            <a href="mailto:manuel.nenninger@web.de?subject=Mail from Your Site">Contact me</a>
+          </Button >
         </Toolbar>
       </AppBar>
 

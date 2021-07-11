@@ -6,7 +6,6 @@ import SectionOne from "./Sections/SectionOne/SectionOne";
 import SectionTwo from "./Sections/SectionTwo/SectionTwo";
 import SectionThree from "./Sections/SectionThree/SectionThree";
 import SectionFour from ".//Sections/SectionFour/SectionFour";
-import Footer from "./Sections/Footer/Footer";
 
 function SectionHandler() {
   let [visibleSectionTwo, visibleSectionThree, visibleSectionFour] = [false];
@@ -17,7 +16,7 @@ function SectionHandler() {
       <SectionOne />
     </section>
     <section>
-    <VisibilitySensor>
+    <VisibilitySensor partialVisibility={true} minTopValue={200}>
       {
         ({isVisible}) => <Grow in={visibleSectionTwo
               ? true
@@ -32,7 +31,7 @@ function SectionHandler() {
     </VisibilitySensor>
     </section>
     <section>
-      <VisibilitySensor>
+      <VisibilitySensor partialVisibility={true} minTopValue={200}>
         {
           ({isVisible}) => <Grow in={visibleSectionThree
                 ? true
@@ -49,7 +48,7 @@ function SectionHandler() {
       </VisibilitySensor>
     </section>
     <section>
-      <VisibilitySensor>
+      <VisibilitySensor partialVisibility={true} minTopValue={200}>
         {
           ({isVisible}) => <Grow in={visibleSectionFour
                 ? true

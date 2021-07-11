@@ -1,0 +1,21 @@
+.sectionSplitter-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
+}
+.sectionSplitter-dots {
+  text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: rgba(116,160,166, 0.7);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+}

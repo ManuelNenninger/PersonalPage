@@ -45,6 +45,16 @@
 .About-SectionFour-RowForContent .col-md-6:last-of-type {
   width: 60%;
 }
+.About-SectionOne-content-wrapper-horizontalDivider {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: .5rem;
+}
+.About-SectionOne-content-wrapper-horizontalDivider div:first-of-type {
+  height: 2px;
+  width: 10%;
+  background-color: #ffd791;
+}
 
 /* Screen >md aber <lg */
 @media screen and (max-width: 992px) {

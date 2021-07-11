@@ -64,6 +64,10 @@ function AboutSectionFour() {
             <div className="About-SectionFour-content-wrapper-titel">
               <h3>About Me</h3>
             </div>
+            <div className="About-SectionOne-content-wrapper-horizontalDivider">
+              <div>
+              </div>
+            </div>
             <div className="About-SectionFour-content-wrapper-text">
               <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                 sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
@@ -76,7 +80,9 @@ function AboutSectionFour() {
           <div className="About-SectionFour-content-wrapper-buttons">
             <div className="row">
               <div className="col-6">
-                <Button size="large" className={ContactButtonclasses.root}>Contact me</Button>
+                <Button size="large" className={ContactButtonclasses.root}>
+                  <a href="mailto:manuel.nenninger@web.de?subject=Mail from Your Site">Contact me</a>
+                </Button>
               </div>
               <div className="col-6">
                 <Button size="large" className={AboutButtonclasses.root}>Work</Button>

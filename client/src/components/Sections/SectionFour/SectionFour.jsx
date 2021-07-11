@@ -29,13 +29,15 @@ function SectionFour() {
 
       <div className="SFour-FooterSocialIconsContainer">
         <div className="SFour-SocialIconContainer">
-          <InstagramIcon className={classes.root} />
+          <a href="https://www.instagram.com/manu32n/">
+            <InstagramIcon className={classes.root} />
+          </a>
         </div>
         <div className="SFour-SocialIconContainer">
           <LinkedInIcon className={classes.root} />
         </div>
         <div className="SFour-SocialIconContainer">
-          <a href="">
+          <a href="https://www.xing.com/profile/Manuel_Nenninger/">
             <img src="/pictures/xing-soziales-logo.png" alt="XingIcon" className="SocialIcon" />
           </a>
         </div>
@@ -43,6 +45,7 @@ function SectionFour() {
       <hr className="HrSTFour-icon" />
       <div className="copyRight">
         <p>@{(new Date().getFullYear())}. Manuel Nenninger</p>
+        <p><a href="https://storyset.com/online">Online illustrations by Storyset</a></p>
       </div>
     </div>
   </div>
