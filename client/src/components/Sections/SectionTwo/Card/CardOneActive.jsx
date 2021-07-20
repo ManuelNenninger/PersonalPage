@@ -10,6 +10,7 @@ const ContactButton = makeStyles((theme) => ({
     borderColor: '#3D5559',
     boxShadow: 'none',
     color: '#FFFFFF',
+    marginBottom: '72px',
     '&:hover': {
       backgroundColor: 'rgba(61,85,89, 0.5)',
       boxShadow: 'none',

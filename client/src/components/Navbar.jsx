@@ -66,7 +66,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             <Link to="/">Manuel Nenninger</Link>
           </Typography>
-          <Button color="inherit" className={classes.typography} >Work</Button >
+          <Button color="inherit" className={classes.typography} ><Link to="/work">Work</Link></Button >
           <Button color="inherit" className={classes.typography} ><Link to="/about">About</Link></Button >
           <Button color="inherit" className={callToActionButtonClasses.root} >
             <a href="mailto:manuel.nenninger@web.de?subject=Mail from Your Site">Contact me</a>

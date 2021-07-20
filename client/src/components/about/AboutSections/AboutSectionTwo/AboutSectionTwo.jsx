@@ -5,13 +5,15 @@ import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import AboutSectionSkills from "../AboutSectionContentSkillsResume/AboutSectionSkills/AboutSectionSkills";
 import AboutSectionResume from "../AboutSectionContentSkillsResume/AboutSectionResume/AboutSectionResume";
+import Grow from '@material-ui/core/Grow';
+
 
 
 const Switchbuttons = makeStyles((theme) => ({
   root: {
     backgroundColor: "rgba(61,85,89, 0.4)",
     borderColor: '#3D5559',
-    boxShadow: 'none',
+    boxShadow: '0px 0px 2px 0px #445e61',
     color: '#FFFFFF',
     '&:hover': {
       backgroundColor: 'rgba(61,85,89, 0.5)',
@@ -28,6 +30,7 @@ const Switchbuttons = makeStyles((theme) => ({
 function AboutSectionTwo() {
   const SwitchbuttonsClasses = Switchbuttons();
   const [showSkillsResume, setshowSkillsResume] = React.useState(true);
+  const [showSkillsResumeGrowth, setshowSkillsResumeGrowth] = React.useState(false);
 
   const skillsArray = [
   {

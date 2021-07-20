@@ -7,6 +7,7 @@ Route,
 import Navbar from "./components/Navbar";
 import SectionHandler from "./components/SectionHandler";
 import AboutSectionHandler from "./components/about/AboutSectionHandler";
+import WorkSectionHandler from "./components/work/WorkSectionHandler";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,9 @@ return (
     <Switch>
       <Route exact path="/about">
         <AboutSectionHandler />
+      </Route>
+      <Route exact path="/work">
+        <WorkSectionHandler />
       </Route>
       <Route exact path="/">
         <SectionHandler />

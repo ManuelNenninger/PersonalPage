@@ -17,9 +17,11 @@
   text-align: center;
   margin: 36px 0 24px 0;
 }
+
 .SThree-AgreePlan-CardTitle {
   /* border-top: 1px solid rgba(61, 85, 89, 0.7); */
 }
+
 .rowSThree {
   margin: 1% 0 3% 0;
 }
@@ -38,40 +40,29 @@
 /*Agreement Plan -- End*/
 /*Typografie Start*/
 .SThree-AgreePlan-Header h4 {
-  font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #3D5559;
-  letter-spacing: 0.025em;
   margin-bottom: 0.625rem;
   margin-top: 0.625rem;
 }
+
 .SThree-AgreePlan-CardTitle h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
-  color: #3D5559;
-  letter-spacing: 0.025em;
   margin-bottom: 0.625rem;
   margin-top: 0.625rem;
 }
 
 .SThree-AgreePlan-CardContent h3 {
-  font-family: 'Poppins', sans-serif;
   font-size: 21px;
   font-weight: 400;
   color: #3D5559;
-  letter-spacing: 0.025em;
   line-height: 36px;
-
 }
 
 .SectionThreeLastCalltoAction h1 {
-  font-family: 'Poppins', sans-serif;
   font-size: 62.5px;
   font-weight: 400;
-  color: #3D5559;
-  letter-spacing: 0.025em;
   margin: 84px 0 36px 0;
 }
 
@@ -138,10 +129,6 @@
     line-height: 32px;
   }
 
-  .SThree-AgreePlan-CardTitle h4 {
-    font-size: 36px;
-  }
-
   .SectionThreeLastCalltoAction h1 {
     font-size: 72px;
   }
@@ -163,9 +150,5 @@
 
   .SThree-AgreePlan-CardContent h3 {
     font-size: 22px;
-  }
-
-  .SThree-AgreePlan-CardTitle h4 {
-    font-size: 38px;
   }
 }

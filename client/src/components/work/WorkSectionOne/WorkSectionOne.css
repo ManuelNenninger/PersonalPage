@@ -1,0 +1,168 @@
+.Work-SectionOne {
+  position: relative;
+  overflow: hidden;
+  min-height: calc(100vh - 64px);
+}
+
+.Work-SectionOne-content-wrapper-horizontalDivider {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: .5rem;
+}
+
+.Work-SectionOne-content-wrapper-horizontalDivider div:first-of-type {
+  height: 2px;
+  width: 10%;
+  background-color: #ffd791;
+}
+
+.Work-SectionOne-content-wrapper {
+  margin: 0 3% 0 3%;
+  display: flex;
+  justify-content: flex-start;
+  /* position: relative;
+    top: 20vh; */
+  margin-top: 20vh;
+}
+
+.Work-SectionOne-content-Fitter-Titel h4 {
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 700;
+}
+
+.Work-SectionOne-content-Fitter-Content h3 {
+  font-size: 20.48px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.Work-SectionOne-content-Fitter {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+/* Circle Animation Start */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: #e6eef5;
+  animation: ripple 15s infinite;
+  box-shadow: 0px 0px 1px 0px #4da7b6;
+}
+
+.small {
+  width: 200px;
+  height: 200px;
+  right: -100px;
+  bottom: -100px;
+}
+
+.medium {
+  width: 400px;
+  height: 400px;
+  right: -200px;
+  bottom: -200px;
+}
+
+.large {
+  width: 600px;
+  height: 600px;
+  right: -300px;
+  bottom: -300px;
+}
+
+.xlarge {
+  width: 800px;
+  height: 800px;
+  right: -400px;
+  bottom: -400px;
+}
+
+.xxlarge {
+  width: 1000px;
+  height: 1000px;
+  right: -500px;
+  bottom: -500px;
+}
+
+.shade1 {
+  opacity: 0.2;
+}
+
+.shade2 {
+  opacity: 0.5;
+}
+
+.shade3 {
+  opacity: 0.7;
+}
+
+.shade4 {
+  opacity: 0.8;
+}
+
+.shade5 {
+  opacity: 0.9;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+/* Circle Animation End */
+/* Screen >md aber <lg */
+@media screen and (max-width: 992px) {
+  .small {
+    width: 50px;
+    height: 50px;
+    right: -100px;
+    bottom: -100px;
+  }
+
+  .medium {
+    width: 200px;
+    height: 200px;
+    right: -200px;
+    bottom: -200px;
+  }
+
+  .large {
+    width: 400px;
+    height: 400px;
+    right: -300px;
+    bottom: -300px;
+  }
+
+  .xlarge {
+    width: 600px;
+    height: 600px;
+    right: -400px;
+    bottom: -400px;
+  }
+
+  .xxlarge {
+    width: 800px;
+    height: 800px;
+    right: -500px;
+    bottom: -500px;
+  }
+  .Work-SectionOne-content-Fitter {
+    max-width: 70vw;
+  }
+}
+
+/* Screen <medium */
+@media screen and (max-width: 768px) {
+  
+}

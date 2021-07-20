@@ -1,0 +1,30 @@
+.About-SectionFive-AgreePlan-Container {
+  margin: 3%;
+}
+
+.About-SectionFive-AgreePlan-ContentCard-MiddleContainer {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  text-align: inherit;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.About-SectionFive-AgreePlan-CardTitle h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  margin-bottom: 6px;
+}
+
+.About-SectionFive-AgreePlanCardContent h3 {
+  font-size: 21px;
+font-weight: 400;
+line-height: 36px;
+}
+.About-SectionFive-AgreePlan-ContentCard-MiddleContainer .About-SectionOne-content-wrapper-horizontalDivider {
+  padding: 0 0 3px 0;
+  margin-bottom: 0;
+
+}

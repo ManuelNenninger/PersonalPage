@@ -10,7 +10,7 @@ const Switchbuttons = makeStyles((theme) => ({
   root: {
     backgroundColor: "rgba(61,85,89, 0.4)",
     borderColor: '#3D5559',
-    boxShadow: 'none',
+    boxShadow: '0px 0px 2px 0px #445e61',
     color: '#FFFFFF',
     '&:hover': {
       backgroundColor: 'rgba(61,85,89, 0.5)',

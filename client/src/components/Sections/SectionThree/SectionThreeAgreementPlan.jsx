@@ -1,12 +1,31 @@
+import React from 'react';
+import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
+import MoneyOffIcon from '@material-ui/icons/MoneyOff';
+import PersonPinCircleRoundedIcon from '@material-ui/icons/PersonPinCircleRounded';
+import {
+  makeStyles
+} from '@material-ui/core/styles';
 
+const iconStyles = makeStyles((theme) => ({
+  root: {
+    color: '#3D5559',
+    fontSize: 50,
+    margin: theme.spacing(1),
+  },
+}));
 
 function SectionThreeAgreementPlan() {
+  const classes = iconStyles();
+
   return (
     <div className="SThree-AgreePlan-Container">
       <div className="row rowSThree">
         <div className="col-md-4 col-12">
           <div className="SThree-AgreePlan-ContentCard">
             <div className="SThree-AgreePlan-ContentCard-MiddleContainer">
+              <div>
+                <QuestionAnswerRoundedIcon className={classes.root}/>
+              </div>
               <div className="SThree-AgreePlan-CardTitle">
                 <h4>I Don´t bite</h4>
               </div>
@@ -19,6 +38,9 @@ function SectionThreeAgreementPlan() {
         <div className="col-md-4 col-12">
           <div className="SThree-AgreePlan-ContentCard">
             <div className="SThree-AgreePlan-ContentCard-MiddleContainer">
+              <div>
+                <MoneyOffIcon className={classes.root} />
+              </div>
               <div className="SThree-AgreePlan-CardTitle">
                 <h4>Full reversion</h4>
               </div>
@@ -31,6 +53,9 @@ function SectionThreeAgreementPlan() {
         <div className="col-md-4 col-12">
           <div className="SThree-AgreePlan-ContentCard">
             <div className="SThree-AgreePlan-ContentCard-MiddleContainer">
+              <div>
+                <PersonPinCircleRoundedIcon className={classes.root} />
+              </div>
               <div className="SThree-AgreePlan-CardTitle">
                 <h4>Completely to your needs</h4>
               </div>

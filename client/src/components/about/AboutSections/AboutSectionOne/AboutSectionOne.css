@@ -17,7 +17,16 @@
   height: 740px;
   width: 800px;
 }
-
+.About-SectionOne-content-wrapper-horizontalDivider {
+  display: flex;
+  justify-content: flex-start;
+  padding: 6px 0 6px;
+}
+.About-SectionOne-content-wrapper-horizontalDivider div:first-of-type {
+  height: 2px;
+  width: 10%;
+  background-color: #ffd791;
+}
 
 
 
