@@ -1,5 +1,7 @@
 import React from 'react';
 import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
+import MenuBookIcon from '@material-ui/icons/MenuBook';
+import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import {
   makeStyles
 } from '@material-ui/core/styles';
@@ -11,7 +13,8 @@ const iconStyles = makeStyles((theme) => ({
   root: {
     color: '#3D5559',
     fontSize: 50,
-    margin: theme.spacing(1),
+    marginTop: theme.spacing(1),
+    marginBottom: theme.spacing(1),
   },
 }));
 
@@ -20,9 +23,10 @@ function AboutSectionFive() {
 
   return(
     <>
+    <section className="About-SectionFive">
     <div className="About-SectionFive-AgreePlan-Container">
       <div className="row About-SectionFive-AgreePlan-Row">
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-12">
           <div className="About-SectionFive-AgreePlan-ContentCard">
             <div className="About-SectionFive-AgreePlan-ContentCard-MiddleContainer">
               <div>
@@ -41,11 +45,11 @@ function AboutSectionFive() {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-12">
           <div className="About-SectionFive-AgreePlan-ContentCard">
             <div className="About-SectionFive-AgreePlan-ContentCard-MiddleContainer">
               <div>
-                <QuestionAnswerRoundedIcon className={classes.root}/>
+                <BusinessCenterIcon className={classes.root}/>
               </div>
               <div className="About-SectionFive-AgreePlan-CardTitle">
                 <h4>Lorem ipsum</h4>
@@ -60,11 +64,11 @@ function AboutSectionFive() {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-12">
+        <div className="col-lg-4 col-12">
           <div className="About-SectionFive-AgreePlan-ContentCard">
             <div className="About-SectionFive-AgreePlan-ContentCard-MiddleContainer">
               <div>
-                <QuestionAnswerRoundedIcon className={classes.root}/>
+                <MenuBookIcon className={classes.root}/>
               </div>
               <div className="About-SectionFive-AgreePlan-CardTitle">
                 <h4>I am a lifetime student</h4>
@@ -81,6 +85,7 @@ function AboutSectionFive() {
         </div>
       </div>
     </div>
+    </section>
     </>
   );
 }

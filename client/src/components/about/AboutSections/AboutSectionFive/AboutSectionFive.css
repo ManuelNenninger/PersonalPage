@@ -2,13 +2,19 @@
   margin: 3%;
 }
 
+.About-SectionFive-AgreePlan-ContentCard {
+  min-height: 100%;
+}
+
 .About-SectionFive-AgreePlan-ContentCard-MiddleContainer {
   display: flex;
   flex-direction: column;
   display: flex;
   text-align: inherit;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .About-SectionFive-AgreePlan-CardTitle h4 {
@@ -19,12 +25,47 @@
 }
 
 .About-SectionFive-AgreePlanCardContent h3 {
-  font-size: 21px;
-font-weight: 400;
-line-height: 36px;
+  font-size: 20.48px;
+  font-weight: 400;
+  line-height: 36px;
 }
+
 .About-SectionFive-AgreePlan-ContentCard-MiddleContainer .About-SectionOne-content-wrapper-horizontalDivider {
   padding: 0 0 3px 0;
   margin-bottom: 0;
-
 }
+
+/* Border Animation Start */
+
+.About-SectionFive-AgreePlan-ContentCard {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(0.0px);
+  border-radius: 10px;
+  min-height: 100%;
+  border: 2px solid rgba(61, 85, 89, 0.4);
+}
+
+.About-SectionFive-AgreePlan-ContentCard:before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  top: calc(4px/-1);
+  left: calc(4px/-1);
+  background: linear-gradient(to right, #3D5559 0%, #3D5559 100%), linear-gradient(to top, #3D5559 50%, transparent 50%), linear-gradient(to top, #3D5559 50%, transparent 50%), linear-gradient(to right, #3D5559 0%, #3D5559 100%), linear-gradient(to left, #3D5559 0%, #3D5559 100%);
+  background-size: 100% 4px, 4px 200%, 4px 200%, 0% 4px, 0% 4px;
+  background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+  background-repeat: no-repeat, no-repeat;
+  transition: transform 0.2s ease-in-out, background-position 0.2s ease-in-out, background-size 0.2s ease-in-out;
+  transform: scaleX(0) rotate(180deg);
+  transition-delay: 0.4s, 0.2s, 0s;
+}
+
+.About-SectionFive-AgreePlan-ContentCard:hover:before {
+  background-size: 200% 4px, 4px 400%, 4px 400%, 55% 4px, 55% 4px;
+  background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+  transform: scaleX(1) rotate(180deg);
+  transition-delay: 0s, 0.2s, 0.4s;
+  border-radius: 10px;
+}
+/* Border Animation End */
