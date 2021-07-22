@@ -21,19 +21,19 @@ const iconStyles = makeStyles((theme) => ({
 function AboutSectionFive() {
   const classes = iconStyles();
 
-  return(
+  return (
     <>
-    <section className="About-SectionFive">
+  <section className="About-SectionFive">
     <div className="About-SectionFive-AgreePlan-Container">
       <div className="row About-SectionFive-AgreePlan-Row">
         <div className="col-lg-4 col-12">
           <div className="About-SectionFive-AgreePlan-ContentCard">
             <div className="About-SectionFive-AgreePlan-ContentCard-MiddleContainer">
               <div>
-                <QuestionAnswerRoundedIcon className={classes.root}/>
+                <QuestionAnswerRoundedIcon className={classes.root} />
               </div>
               <div className="About-SectionFive-AgreePlan-CardTitle">
-                <h4>Lorem ipsum</h4>
+                <h4>Communication is key</h4>
               </div>
               <div className="About-SectionOne-content-wrapper-horizontalDivider">
                 <div>
@@ -41,6 +41,7 @@ function AboutSectionFive() {
               </div>
               <div className="About-SectionFive-AgreePlanCardContent">
                 <h3>I Love to work and connect with peaople in different business areas from around the world.</h3>
+                <h3>So do not be afraid to reach out to me. There will be no complicated business communications.</h3>
               </div>
             </div>
           </div>
@@ -49,17 +50,17 @@ function AboutSectionFive() {
           <div className="About-SectionFive-AgreePlan-ContentCard">
             <div className="About-SectionFive-AgreePlan-ContentCard-MiddleContainer">
               <div>
-                <BusinessCenterIcon className={classes.root}/>
+                <BusinessCenterIcon className={classes.root} />
               </div>
               <div className="About-SectionFive-AgreePlan-CardTitle">
-                <h4>Lorem ipsum</h4>
+                <h4>Suited for any environment</h4>
               </div>
               <div className="About-SectionOne-content-wrapper-horizontalDivider">
                 <div>
                 </div>
               </div>
               <div className="About-SectionFive-AgreePlanCardContent">
-                <h3>I am experienced in working with large enterprise corporations and small businesses. Sometimes sticking to orderly processes and sometimes in an uncertain environment.</h3>
+                <h3>I am experienced in working with large enterprise corporations and small businesses. I can sticking to orderly processes as well as work in uncertain environments.</h3>
               </div>
             </div>
           </div>
@@ -68,7 +69,7 @@ function AboutSectionFive() {
           <div className="About-SectionFive-AgreePlan-ContentCard">
             <div className="About-SectionFive-AgreePlan-ContentCard-MiddleContainer">
               <div>
-                <MenuBookIcon className={classes.root}/>
+                <MenuBookIcon className={classes.root} />
               </div>
               <div className="About-SectionFive-AgreePlan-CardTitle">
                 <h4>I am a lifetime student</h4>
@@ -78,15 +79,15 @@ function AboutSectionFive() {
                 </div>
               </div>
               <div className="About-SectionFive-AgreePlanCardContent">
-                <h3>I am constantly learning from my clients and their business to improve myself to help them solve their problems.</h3>
+                <h3>I am constantly learning from my clients and their awesome businesses to improve myself and help them solve their problems.</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </section>
-    </>
+  </section>
+</>
   );
 }
 
