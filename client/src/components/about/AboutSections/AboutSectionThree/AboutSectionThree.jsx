@@ -1,6 +1,8 @@
 import "./AboutSectionThree.css";
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import {
+  makeStyles
+} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import AboutSectionSkills from "../AboutSectionContentSkillsResume/AboutSectionSkills/AboutSectionSkills";
@@ -28,52 +30,54 @@ function AboutSectionThree() {
   const SwitchbuttonsClasses = Switchbuttons();
   const [showSkillsResume, setshowSkillsResume] = React.useState(true);
 
-  const skillsArray = [
-  {
-    skillName: "React.js",
-    skillValue: 70,
-  },
-  {
-    skillName: "Node.js",
-    skillValue: 60,
-  },
-  {
-    skillName: "Express",
-    skillValue: 60,
-  },
-  {
-    skillName: "Database via Mongoose",
-    skillValue: 60,
-  },
-  {
-    skillName: "HTML",
-    skillValue: 80,
-  },
-  {
-    skillName: "CSS",
-    skillValue: 70,
-  },
-  {
-    skillName: "JavaScript",
-    skillValue: 70,
-  },
-]
+  const skillsArray = [{
+      skillName: "React.js",
+      skillValue: 70,
+    },
+    {
+      skillName: "Node.js",
+      skillValue: 60,
+    },
+    {
+      skillName: "Express",
+      skillValue: 60,
+    },
+    {
+      skillName: "Database via Mongoose",
+      skillValue: 60,
+    },
+    {
+      skillName: "Git",
+      skillValue: 60,
+    },
+    {
+      skillName: "HTML",
+      skillValue: 80,
+    },
+    {
+      skillName: "CSS",
+      skillValue: 70,
+    },
+    {
+      skillName: "JavaScript",
+      skillValue: 70,
+    },
+  ]
 
-const resumeArray = [
-  {
-    zeitraum: "Aug. 2021",
-    resumeTitel: "Freelancer",
-    resumeDescribtion: "lelelelelele llelel lololo",
-  },
-  {
-    zeitraum: "Jan. 2021",
-    resumeTitel: "Start of the juornay",
-    resumeDescribtion: "lelelelelele llelel lololo",
-  },
-]
+  const resumeArray = [{
+      zeitraum: "Aug. 2021",
+      resumeTitel: "Freelancer - as Fullstack Web-Developer",
+      resumeDescribtion: "In my off time, I help people bring their website visions to life or support their front-end & back-end development.",
+    },
+    {
+      zeitraum: "Jan. 2021",
+      resumeTitel: "Start of the juornay",
+      resumeDescribtion: "",
+    },
+  ]
 
-return (
-<>
+  return (
+    <>
   <section className="About-SectionTwo">
     <div className="About-SectionTwo-content-wrapper">
       <div className="row About-SectionThree-RowForContent">
@@ -104,7 +108,7 @@ return (
     </div>
   </section>
 </>
-);
+  );
 }
 
 export default AboutSectionThree;
