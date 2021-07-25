@@ -76,10 +76,10 @@ function AboutSectionFour() {
             <div className="About-SectionFour-content-wrapper-text">
               <h4>
                 Hello. I am Manuel Nenninger, a mechanical engineer with a focus on automotive engineering. I am passionate about developing the future of driving and
-                already worked with big automotive companies to helped them to build the next generation of vehicles.
+                already worked with big automotive companies to help them to build the next generation of vehicles.
               </h4>
               <h4>
-                In my off time i love to build beautiful websites, creating intuitive designs, turn big problems into simple solutions and work with positive people around the world.
+                In my free time i love to build beautiful websites, creating intuitive designs, turn big problems into simple solutions and work with positive people around the world.
               </h4>
               <h3>
                 What´s more?
