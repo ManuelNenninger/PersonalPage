@@ -26,6 +26,8 @@ const useStyles = makeStyles((theme) => ({
   typography: {
     fontFamily: 'Lexend, sans-serif',
     margin: theme.spacing(1),
+    color: 'inherit',
+    textDecoration: 'none',
   },
 
 }));
