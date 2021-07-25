@@ -21,10 +21,10 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
-    fontFamily: "Poppins",
+    fontFamily: 'Lexend, sans-serif',
   },
   typography: {
-    fontFamily: "Poppins",
+    fontFamily: 'Lexend, sans-serif',
     margin: theme.spacing(1),
   },
 
@@ -36,6 +36,7 @@ const callToActionButton = makeStyles((theme) => ({
     boxShadow: 'none',
     color: '#3E5659',
     margin: theme.spacing(1),
+    fontFamily: 'Lexend, sans-serif',
     '&:hover': {
       backgroundColor: 'rgba(255,215,145, 0.8)',
       boxShadow: 'none',

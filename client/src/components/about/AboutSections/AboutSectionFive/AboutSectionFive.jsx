@@ -20,11 +20,11 @@ const iconStyles = makeStyles((theme) => ({
 }));
 
 const cardContentOne = [
-  "I Love to work and connect with peaople in different business areas from around the world.",
+  "I love to work and connect with people in different business areas from around the world.",
   "So do not be afraid to reach out to me. There will be no complicated business communications."
 ];
 const cardContentTwo = [
-  "I am experienced in working with large enterprise corporations and small businesses. I can sticking to orderly processes as well as work in uncertain environments."
+  "I am experienced in working with large enterprise corporations and small businesses. I can stick to orderly processes as well as work in uncertain environments."
 ];
 const cardContentThree = [
   "I am constantly learning from my clients and their awesome businesses to improve myself and help them solve their problems.",
@@ -59,7 +59,7 @@ function AboutSectionFive() {
       </div>
     </div>
   </section>
-</>
+  </>
   );
 }
 

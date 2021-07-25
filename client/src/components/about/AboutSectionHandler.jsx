@@ -16,11 +16,19 @@ function AboutSectionHandler() {
 
   return (
     <>
-      <AboutSectionOne />
+    <VisibilitySensor partialVisibility={true} minTopValue={200}>
+    {
+      ({isVisible}) => <Grow direction="right" in={visibleAboutTwo ? true : isVisible} onEnter={() => {visibleAboutTwo = true;}} style={{transformOrigin: '0 0 0'}} {...(isVisible ? { timeout: 800 } : {})}>
+      <div>
+        <AboutSectionOne />
+      </div>
+    </Grow>
+    }
+    </VisibilitySensor>
       <SectionSplitter />
       <VisibilitySensor partialVisibility={true} minTopValue={200}>
       {
-        ({isVisible}) => <Grow direction="right" in={visibleAboutTwo ? true : isVisible} onEnter={() => {visibleAboutTwo = true;}} style={{transformOrigin: '0 0 0'}} {...(isVisible ? { timeout: 800 } : {})}>
+        ({isVisible}) => <Grow direction="right" in={visibleAboutTwo ? true : isVisible} onEnter={() => {visibleAboutTwo = true;}} style={{transformOrigin: '0 0 0'}} {...(isVisible ? { timeout: 1500 } : {})}>
         <div>
           <AboutSectionTwo />
         </div>

@@ -9,6 +9,7 @@ const ContactButton = makeStyles((theme) => ({
     borderColor: '#FFD791',
     boxShadow: 'none',
     color: '#3D5559',
+    fontFamily: 'Lexend, sans-serif',
     '&:hover': {
       backgroundColor: '#3D5559',
       boxShadow: 'none',
@@ -30,6 +31,7 @@ const AboutButton = makeStyles((theme) => ({
     border: "1px solid #3D5559",
     boxShadow: 'none',
     color: '#3D5559',
+    fontFamily: 'Lexend, sans-serif',
     '&:hover': {
       boxShadow: 'none',
       backgroundColor: 'rgba(61,85,89, 0.2)',

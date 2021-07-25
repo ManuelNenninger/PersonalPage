@@ -1,63 +1,66 @@
 import "./AboutSectionFour.css";
 import React from 'react';
 import {
-makeStyles
+  makeStyles
 } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { Link } from "react-router-dom";
+import {
+  Link
+} from "react-router-dom";
 
 
 const ContactButton = makeStyles((theme) => ({
-root: {
-backgroundColor: "#FFD791",
-borderColor: '#FFD791',
-boxShadow: 'none',
-color: '#3D5559',
-margin: theme.spacing(3),
-fontSize: "20.48px",
-'&:hover': {
-backgroundColor: '#3D5559',
-boxShadow: 'none',
-color: '#FFFFFF',
-},
-'&:active': {
-boxShadow: 'none',
-backgroundColor: '#FFD791',
+  root: {
+    backgroundColor: "#FFD791",
+    borderColor: '#FFD791',
+    boxShadow: 'none',
+    color: '#3D5559',
+    margin: theme.spacing(3),
+    fontSize: "20.48px",
+    fontFamily: 'Lexend, sans-serif',
+    '&:hover': {
+      backgroundColor: '#3D5559',
+      boxShadow: 'none',
+      color: '#FFFFFF',
+    },
+    '&:active': {
+      boxShadow: 'none',
+      backgroundColor: '#FFD791',
 
-},
-'&:focus': {
-boxShadow: '0 0 0 0.2rem rgba(116,160,166, 0.5)',
-},
-},
+    },
+    '&:focus': {
+      boxShadow: '0 0 0 0.2rem rgba(116,160,166, 0.5)',
+    },
+  },
 }));
 
 const AboutButton = makeStyles((theme) => ({
-root: {
-border: "1px solid rgb(62,86,89)",
-boxShadow: 'none',
-color: '#3D5559',
-margin: theme.spacing(3),
-fontSize: "20.48px",
-'&:hover': {
-boxShadow: 'none',
-backgroundColor: 'rgba(62,86,89, 0.2)',
-border: "1px solid rgb(62,86,89)",
-},
-'&:active': {
-boxShadow: 'none',
-},
-'&:focus': {
-boxShadow: '0 0 0 0.2rem rgb(116,160,166)',
-},
-},
+  root: {
+    border: "1px solid rgb(62,86,89)",
+    boxShadow: 'none',
+    color: '#3D5559',
+    margin: theme.spacing(3),
+    fontSize: "20.48px",
+    '&:hover': {
+      boxShadow: 'none',
+      backgroundColor: 'rgba(62,86,89, 0.2)',
+      border: "1px solid rgb(62,86,89)",
+    },
+    '&:active': {
+      boxShadow: 'none',
+    },
+    '&:focus': {
+      boxShadow: '0 0 0 0.2rem rgb(116,160,166)',
+    },
+  },
 }));
 
 function AboutSectionFour() {
-const ContactButtonclasses = ContactButton();
-const AboutButtonclasses = AboutButton();
+  const ContactButtonclasses = ContactButton();
+  const AboutButtonclasses = AboutButton();
 
-return (
-<>
+  return (
+    <>
   <section className="About-SectionFour">
     <div className="About-SectionFour-content-wrapper">
       <div className="row About-SectionFour-RowForContent">
@@ -104,9 +107,9 @@ return (
         </div>
       </div>
     </div>
-  </section>
-</>
-);
+  </section> <
+    />
+  );
 }
 
 export default AboutSectionFour;

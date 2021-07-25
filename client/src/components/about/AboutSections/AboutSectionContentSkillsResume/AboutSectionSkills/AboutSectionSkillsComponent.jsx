@@ -55,8 +55,8 @@ function AboutSectionSkillsComponent(props) {
           </Box>
         </Box>
       </div>
-    </div>
-    </>
+    </div> <
+    />
   );
 }
 

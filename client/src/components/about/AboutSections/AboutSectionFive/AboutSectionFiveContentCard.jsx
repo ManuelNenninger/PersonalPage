@@ -15,9 +15,9 @@ function AboutSectionFiveContentCard(props) {
             </div>
           </div>
           <div className="About-SectionFive-AgreePlanCardContent">
-            {props.contentText.map(function(contentText) {
+            {props.contentText.map(function(contentText, index) {
               return(
-                <h3>{contentText}</h3>
+                <h3 key={index} >{contentText}</h3>
               );
             })
             }

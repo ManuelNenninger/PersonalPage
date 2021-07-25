@@ -17,7 +17,7 @@ return (
       </div>
       <div className="col-md-6 col-12">
         <div className="About-SectionOne-content-wrapper-image">
-            <img src="/pictures/Programmer-rafiki-2.svg" alt="" />
+            <img src="/pictures/Programmer-rafiki-2.svg" alt="Manuel Nenninger, Maschinenbau Ingenieur und Fullstack Developer" />
         </div>
       </div>
     </div>

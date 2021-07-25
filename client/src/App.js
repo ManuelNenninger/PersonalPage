@@ -25,7 +25,7 @@ return (
         <WorkSectionHandler />
       </Route>
       <Route exact path="/">
-        <SectionHandler />
+        <AboutSectionHandler />
       </Route>
     </Switch>
   </Router>

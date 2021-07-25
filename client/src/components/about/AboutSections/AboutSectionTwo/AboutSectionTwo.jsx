@@ -5,7 +5,6 @@ import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import AboutSectionSkills from "../AboutSectionContentSkillsResume/AboutSectionSkills/AboutSectionSkills";
 import AboutSectionResume from "../AboutSectionContentSkillsResume/AboutSectionResume/AboutSectionResume";
-import Grow from '@material-ui/core/Grow';
 
 
 
@@ -30,7 +29,6 @@ const Switchbuttons = makeStyles((theme) => ({
 function AboutSectionTwo() {
   const SwitchbuttonsClasses = Switchbuttons();
   const [showSkillsResume, setshowSkillsResume] = React.useState(true);
-  const [showSkillsResumeGrowth, setshowSkillsResumeGrowth] = React.useState(false);
 
   const skillsArray = [
   {
@@ -42,10 +40,6 @@ function AboutSectionTwo() {
     skillValue: 80,
   },
   {
-    skillName: "Microsoft Office (Excel, PowerPoint, Word, ...)",
-    skillValue: 90,
-  },
-  {
     skillName: "ECU Measurement and Calibration via Inca and Vector",
     skillValue: 80,
   },
@@ -54,12 +48,16 @@ function AboutSectionTwo() {
     skillValue: 30,
   },
   {
-    skillName: "Konstruktion & Auslegung",
-    skillValue: 30,
+    skillName: "Creo Paramatrics",
+    skillValue: 90,
   },
   {
-    skillName: "Konstruktion & Auslegung",
+    skillName: "Construction & Dimensioning",
     skillValue: 80,
+  },
+  {
+    skillName: "Microsoft Office (Excel, PowerPoint, Word, ...)",
+    skillValue: 90,
   },
 ]
 
@@ -67,22 +65,22 @@ const resumeArray = [
   {
     zeitraum: "2019",
     resumeTitel: "Consultant - Capgemini Engineering",
-    resumeDescribtion: "Inbetriebnahme zukünftiger BMW Hybrid-, Elektrofahrzeuge und Entwicklungsstufen. Unterstützung der Antriebsentwicklung und deren Prozesspartner bei der Inbetriebnahme und Fehleranalyse",
+    resumeDescribtion: "Commissioning of future BMW hybrid, electric vehicles and development stages. Support of powertrain development and their process partners during commissioning and fault analysis.",
   },
   {
     zeitraum: "Jan. 2019 - Juli 2019",
-    resumeTitel: "Bachelorand - AUDI AG",
-    resumeDescribtion: "Konzeptionelle Untersuchung und Ausarbeitung eines konsequenten Hybrid-Antriebs (...) für eine umsetzbare Konzeptstudie",
+    resumeTitel: "Thesis - AUDI AG",
+    resumeDescribtion: "Conceptional study and elaboration of a consistent hybrid drive (...) for a realizable concept study.",
   },
   {
     zeitraum: "Sep. 2017 - März 2018",
-    resumeTitel: "Konstruktion Praktikant - AUDI AG",
-    resumeDescribtion: "Konstruktion V-Motoren",
+    resumeTitel: "Construction Intern - AUDI AG",
+    resumeDescribtion: "Construction & Dimensioning V-engines",
   },
   {
     zeitraum: "Jan. 2015 - Juli 2017",
-    resumeTitel: "Werkstudent - Nenninger & Co GmbH",
-    resumeDescribtion: "Wartung elektrischer Antriebskomponenten und Leistungselektronik für Industrieanwendungen.",
+    resumeTitel: "Working student - Nenninger & Co GmbH",
+    resumeDescribtion: "Maintenance of electrical drive components and power electronics for industrial applications.",
   },
 ]
 
@@ -93,7 +91,7 @@ return (
       <div className="row About-SectionTwo-RowForContent">
         <div className="col-md-6 col-12">
           <div className="About-SectionTwo-content-wrapper-image">
-            <img src="/pictures/Create-rafiki-3.svg" alt="" />
+            <img src="/pictures/Create-rafiki-3.svg" alt="manuel Nenninger, Maschinenbau Ingenieur" />
           </div>
         </div>
         <div className="col-md-6 col-12">

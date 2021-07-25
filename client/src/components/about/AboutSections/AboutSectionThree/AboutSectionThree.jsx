@@ -101,7 +101,7 @@ function AboutSectionThree() {
         </div>
         <div className="col-md-6 col-12">
           <div className="About-SectionTwo-content-wrapper-image">
-            <img src="/pictures/Code typing-bro-2.svg" alt="" />
+            <img src="/pictures/Code typing-bro-2.svg" alt="Manuel Nenninger, Fullstack Developer" />
           </div>
         </div>
       </div>

@@ -11,32 +11,17 @@ function AboutSectionSkills(props) {
     }
   }
 
-  //  React.useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setProgress((oldProgress) => {
-  //       if(oldProgress === 10){
-  //         clearInterval(timer);
-  //         return 10;
-  //       } else {
-  //         return (oldProgress+1);
-  //       }
-  //     });
-  //     console.log("Im Running");
-  //   }, 20);
-  //   console.log("useeffect is trunning");
-  // }, [show]);
-
-
   return (
     <>
     <VisibilitySensor partialVisibility={true} minTopValue={300} onChange={onChange}>
     <div className="About-Section-content-wrapper-SkillsResume">
-    {props.skillsArray.map(function(skill){
+    {props.skillsArray.map(function(skill, index){
       return (
       <AboutSectionSkillsComponent
         firstTimeVisible={firstTimeVisible}
         skillName={skill.skillName}
         skillValue={skill.skillValue}
+        key={index}
       />);
     })}
     </div>
@@ -45,4 +30,4 @@ function AboutSectionSkills(props) {
   );
 }
 
-export default AboutSectionSkills
+export default AboutSectionSkills;

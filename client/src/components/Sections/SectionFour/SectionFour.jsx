@@ -34,7 +34,9 @@ function SectionFour() {
           </a>
         </div>
         <div className="SFour-SocialIconContainer">
+        <a href="https://www.linkedin.com/in/manuel-nenninger-506273218/">
           <LinkedInIcon className={classes.root} />
+        </a>
         </div>
         <div className="SFour-SocialIconContainer">
           <a href="https://www.xing.com/profile/Manuel_Nenninger/">

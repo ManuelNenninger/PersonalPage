@@ -2,6 +2,8 @@
   position: relative;
   overflow: hidden;
   min-height: calc(100vh - 64px);
+  /* Die Animation soll immer am Bildschirmrand liegen. Hier setzt die Section keine max-width begrenzung um. */
+  max-width: none;
 }
 
 .Work-SectionOne-content-wrapper-horizontalDivider {
@@ -23,7 +25,12 @@
   /* position: relative;
     top: 20vh; */
   margin-top: 20vh;
+  /* Für die max Width-Begrenzung. Hier übernimmt das nicht deine Section. */
+  margin-right: 3%;
+  margin-left: 3%;
+  max-width: 1600px;
 }
+
 
 .Work-SectionOne-content-Fitter-Titel h4 {
   font-size: 50px;
@@ -164,5 +171,5 @@
 
 /* Screen <medium */
 @media screen and (max-width: 768px) {
-  
+
 }

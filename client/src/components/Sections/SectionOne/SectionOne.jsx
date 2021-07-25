@@ -13,10 +13,10 @@ function SectionOne() {
       </div>
       </div>
       <div className="scrollAnimationKC">
-        <div class="scroll">
+        <div className="scroll">
             <a href="yourlink">
-                <div class="mouse">
-                    <div class="wheel"></div>
+                <div className="mouse">
+                    <div className="wheel"></div>
                 </div>
             </a>
         </div>
