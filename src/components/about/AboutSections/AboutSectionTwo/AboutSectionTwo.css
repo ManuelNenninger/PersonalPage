@@ -87,7 +87,7 @@ li {
 }
 
 /* The actual line being placed before each list item, tweak width and color as appropriate */
-li:before {
+.About-Section-content-wrapper-ResumeList li:before {
   background-color: #3D5559;
   width: 2px;
   content: '';
